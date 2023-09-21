@@ -1,0 +1,95 @@
+body {
+    background-color: #edf2f7;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #68778D;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* *********** header ************* */
+
+header {
+    background-color: #fff;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    padding-bottom: 70px;
+}
+
+h1 {
+    font-size: 125px;
+    color: #63b3ed;
+    text-align: center;
+    font-weight: bold;
+}
+
+.callout p {
+    margin-left: 167px;
+    margin-right: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #8594AD;
+}
+
+.callout span {
+    color: #63b3ed; 
+}
+
+.callout a {
+    background-color: #dd6b20;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 6px;
+    border: 2px solid #dd6b20;
+}
+
+.callout a:hover {
+    border: 2px solid #dd6b20;
+    background-color: #fff;
+    color: #a0aec0;
+}
+
+.callout {
+    display: flex;
+}
+
+/* ************* column layout ************* */
+.col {
+    /* width: 300px; */
+    /* note: the images are the widest element inside each column, therefore the columns will equal the width of the images. We do not need to specify the width.  Flexbox looks at the width of the content first and then layouts out the space. */
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.col img {
+    margin-bottom: 36px;
+}
+
+.col h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.col li {
+    line-height: 36px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ************ footer ************** */
+footer {
+    background-color: #fff;
+    font-style: italic;
+    padding: 15px 30px;
+}
